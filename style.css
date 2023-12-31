@@ -1,0 +1,347 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body
+{
+    margin: 0;
+    background-color: #1e1819;
+}
+.home-logo
+{
+    height: 50px;
+
+}
+.navbar .container-fluid
+{
+   
+    padding: 0px;
+
+}
+.dropdown:hover
+{
+    background-color:rgb(246, 240, 234)
+    
+}
+.navbar-nav .dropdown-menu 
+{
+    background-color:rgb(246, 240, 234)
+    
+}
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.nav-2
+{
+    display: flex;
+    
+    justify-content: end;
+    
+    
+}
+
+
+.small{
+    font-size:11px;
+}
+small{
+    font-size:11px;
+}
+.main-section
+{
+    text-align: center;
+    color: white;
+    
+       
+}
+.main-section .card{
+    
+    height:auto;
+    
+}
+.main-section .btn-1{
+    border-radius: 15px;
+}
+.button-start
+{
+    border-radius: 0;
+}
+.dash{
+    
+    height:auto;
+    
+    text-align: center;
+}
+.dash video{
+   
+    height: auto;
+   align-items: center;
+  
+
+}
+.intro
+{
+    color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+}
+.card-title
+{
+        text-align: left;
+}
+    .card-text
+{
+        text-align: left; 
+}
+
+
+
+.card
+{
+    background-color: #2b2929;
+    color: white;
+    border:0;
+    
+}
+.card-section
+{
+    margin: auto;
+    justify-content:space-between;
+    
+    
+    
+}
+.row
+{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.stories
+{
+    height: 350px;
+    background-color: #2b2929;
+}
+.registration
+{
+    height: 150px;
+    color: white;
+    padding-top: 40px;
+    padding-left: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.reg-title
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+.reg-button
+{
+    width: 50%;
+    
+    
+   
+}
+.footer-area
+{
+    background-color: blackl;
+}
+
+.slid-text
+{
+    color: white;
+    padding-top: 3rem;
+
+}
+
+.designation
+{
+    color: grey;  
+}
+.story-link
+{
+    color: rgb(197, 188, 188);
+    margin-bottom: 20px;
+}
+.story-link:hover
+
+{
+    color: white;
+}
+.btn
+{
+    color: black;
+    border: none;
+    border-radius: 0;
+}
+ul{
+	list-style: none;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+.footer{
+	background-color: #060606;
+    padding: 70px 0;
+    color: white;
+    line-height: 2;
+    
+}
+footer a
+{
+    text-decoration: none;
+    color: rgb(195, 186, 186);
+}
+
+a:hover
+{
+    color: #fffefe;
+}
+.social-media
+{
+    padding-left: 100px;
+    gap: 10px;
+}
+.glob
+{
+    padding-left: 100px; 
+    gap: 10px;
+}
+.line
+{
+    margin-left: 100px;
+}
+
+
+
+/*responsive area with media*/
+
+
+@media (max-width:480px) {
+
+    .card-title
+    {
+        text-align: left;
+    }
+    .card-text
+    {
+        text-align: left; 
+    }
+    .reg-button
+    {
+    padding-left: 10px;
+
+   
+    }
+    .img-fluid
+    {
+        margin: 25px;
+    }
+    .social-media
+    {
+    padding-left: 10px;
+    
+    }
+    .line
+    {
+    margin-left: 0px;
+    }
+    .glob
+    {
+    padding-left: 0px;
+    gap: 10px; 
+    }
+    .nav-2
+    {
+    display: flex;
+    justify-content: left;
+    
+    }
+    .imgdark
+    {
+        width: 20px;
+    }
+    .headlines
+    {
+        font-size: 25px !important;
+    }
+
+
+
+
+}
+
+
+@media (max-width:767px) {
+
+
+    .card-secure
+    {
+        margin-top: 20px;
+    }
+    .reg-button
+    {
+    padding-left: 20px;
+    
+    
+   
+    }
+    .registration
+    {
+        padding-left: 50px;
+    }
+    .stories
+    {
+        height: 700px;
+    }
+    .img-fluid
+    {
+        margin: 25px;
+    }
+    .social-media
+    {
+    padding-left: 10px;
+    
+    }
+    .line
+    {
+    margin-left: 0px;
+    }
+    .glob
+    {
+    padding-left: 0px;
+    gap: 10px; 
+    }
+    .nav-2
+    {
+    display: flex;
+    justify-content: left;
+    
+    
+    
+    
+    }
+    .imgdark
+    {
+        width: 20px;
+    }
+    .headlines
+    {
+        font-size: 25px !important;
+    }
+
+
+}
+
+@media (max-width:995px)
+{
+    .imgdark
+    {
+        width: 20px;
+    }
+
+}
